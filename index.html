@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Car Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Listing - E-Commerce</title>
+  <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+  h2{
+  text-align:  center;
+  }
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+section#home {
+  background-color: #e2f9e1;
+}
+
+section#cars,
+section#about,
+section#contact {
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+/* Product Listing Styling */
+.product-listing {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-card .price {
+  font-size: 18px;
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.product-card .description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.product-card .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card .btn:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+  </style>
+  <body>
+    <header>
+      <h1>รถแท็กซี่-บ้านมือสองราคาไม่ถึง 100,000 บาท</h1>
+      <nav>
+          <ul>
+              <li><a href="#home">หน้าหลัก</a></li>
+              <li><a href="#cars">บริการรถลากฉุกเฉิน</a></li>
+              <li><a href="#cars">รับต่อภาษี-ประกันรถยนต์</a></li>
+              <li><a href="#cars">จดทะเบียนรถสาธารณะ</a></li>
+              <li><a href="#about">เกี่ยวกับเรา</a></li>
+              <li><a href="#contact">ติดต่อเรา</a></li>
+          </ul>
+      </nav>
+  </header>
+  <section id="home">
+      <h2>แหล่งจำหน่ายรถบ้านราคาถูกและดีที่สุดในไทย</h2>
+      <p>รวมเป็นพาร์ทเนอร์กับเรา! สามารถสั่งจองรถล่วงหน้า เพื่อขายต่อทำกำไรเอง ยินดีให้คำปรึกษาด้านธุรกิจรถยนต์มือสอง </p>
+  </section>
+
+  <section id="cars">
+      <h2>รถขายตอนนี้</h2>
+  <!-- Product Listing Section -->
+  <section class="product-listing">
+    <div class="product-card">
+      <img src="https://www.motorshow.in.th/wp-content/uploads/2024/09/BYD-M6.jpg" alt="Product 1">
+      <h3>รถไฟฟ้ามือสอง</h3>
+      <p class="price">$29.99</p>
+      <p class="description">บริการสั่งซื้อรถไฟฟ้านำเข้าและภายในประเทศ</p>
+      <button class="btn">ดูรายละเอียด</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.ibb.co/YyzXKcQ/S-14344227.jpg" alt="Product 2">
+      <h3>รถยนต์มือสอง</h3>
+      <p class="price">85,000 บาท</p>
+      <p class="description">ปลดป้ายทำสีใหม่ จดทะเบียนรถบ้าน ได้เล่มตามกรมขนส่ง</p>
+      <button class="btn">ดูรายละเอียด</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://scontent.fbkk29-7.fna.fbcdn.net/v/t1.6435-9/48396536_613516265746918_3357083100117991424_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=QqP-lp4nSsEQ7kNvgGTvl_r&_nc_oc=AdgCV3a_Qh4tvvoi1-c01bmZ4ZBmJHpRp1DuD0B5VNCPO3BfS9CDbDEM_QSQKZOTnuKkwx9t2gi7_t-5vFgJzoXV&_nc_zt=23&_nc_ht=scontent.fbkk29-7.fna&_nc_gid=AoGB5m_n4NPMnJVwn9uZW_r&oh=00_AYB27eLiMSufUdsacYc2dVh7wHXAymFj7f-Uf1TIS8NzGw&oe=679CBA44" alt="Product 3">
+      <h3>รถแท็กซี่เช่ารายวัน</h3>
+      <p class="price">เริ่มต้นวันละ 600 บาท จัดโปร</p>
+      <p class="description">บริการเช่ารถแท็กซี่รายวัน จัดโปรโมชั่น เช่าได้รถ หรือขับฟรีตามวันที่กำหนด</p>
+      <button class="btn">ดูรายละเอียด</button>
+    </div>
+
+    <!-- Add more product cards as needed -->
+  </section>
+  </section>
+  <section id="about">
+      <h2>เกี่ยวกับเรา</h2>
+      <p>ประสบการณ์ยาวนานมากกว่า 20 ปี สามารถปรึกษาจดทะเบียนรถรับจ้างได้</p>
+  </section>
+  <section id="contact">
+      <h2>ติดต่อเรา</h2>
+      <p>สามารถเข้ามาปรึกษา บริการเช่ารถแท็กซี่รายวัน รายเดือน บริการเป็นกันเอง ได้ที่ ไทยสมาร์ทแท็กซี่ ลาดกระบังซอย 54 โทร. 081 343 7368</p>
+  </section>
+  <footer>
+      <p>&copy; 2025 Automotive Car Dealership. All rights reserved.</p>
+  </footer>
+</body>
+</html>
