@@ -114,19 +114,36 @@ body {
   color: #333;
   line-height: 1.6;
 }
+/* Social Media Links Section */
+.social-media-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-media-btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+        }
+
+        /* Social media button colors */
+        .facebook { background-color: #3b5998; }
+        .twitter { background-color: green; }
+        .instagram { background-color: #e4405f; }
+
+        .social-media-btn:hover {
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body>
   <body>
-    <!-- Element in the top-right corner -->
-    <div class="top-right">
-      <ul>
-        <li>
-            <button class="social-btn">Facebook</button>
-            <button class="social-btn-line">Line</button>
-        </li>
-    </ul>
-  </div>
     <header>
       <h1>รถแท็กซี่-บ้านมือสองราคาไม่ถึง 100,000 บาท</h1>
       <nav>
@@ -140,5 +157,21 @@ body {
           </ul>
       </nav>
   </header>
+  <section id="about">
+    <h2>ติดต่อเรา</h2>
+    <p>สำนักงาน ตั้งอยู่ซอยลาดกระบัง 54 ใกล้สนามบินสุวรรณภูมิ เข้าซอยอยู่ซ้ายมือ สามารถนัดชมรถได้ล่วงหน้า</p>
+    <!-- Social Media Buttons -->
+    <div class="social-media-container">
+      <a href="https://www.facebook.com" target="_blank">
+          <button class="social-media-btn facebook">Facebook</button>
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+          <button class="social-media-btn twitter">Line</button>
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+          <button class="social-media-btn instagram">Youtube</button>
+      </a>
+  </div>
+</section>
 </body>
 </html>
