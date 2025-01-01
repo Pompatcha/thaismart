@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Car Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Listing - E-Commerce</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+    <title>Contact Us</title>
+    <style>
+          <style>
+    /* Positioning container for top-right */
+      head
+        .top-right {
+            position: relative;
+            top: 10px; /* Distance from the top */
+            right: 10px; /* Distance from the right */
+            width: 100px; /* You can adjust the image size */
+            height: auto; /* Maintain the aspect ratio */
+            border-radius: 10px; /* Optional: rounded corners */
+            display: flex;
+            
+        }
+        /* Style for the button or icon */
+        .social-btn {
+            padding: 10px 20px;
+            background-color: #0077b5; /* Example color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .social-btn-line{
+          padding: 10px 20px;
+            background-color: #43eb6d; /* Example color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .social-btn:hover {
+            background-color: #005582; /* Darker blue on hover */
+        }
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+  h2{
+  text-align:  center;
+  }
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+section#home {
+  background-color: #e2f9e1;
+}
+
+section#cars,
+section#about,
+section#contact {
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+    </style>
+</head>
+<body>
+  <body>
+    <!-- Element in the top-right corner -->
+    <div class="top-right">
+      <ul>
+        <li>
+            <button class="social-btn">Facebook</button>
+            <button class="social-btn-line">Line</button>
+        </li>
+    </ul>
+  </div>
+    <header>
+      <h1>รถแท็กซี่-บ้านมือสองราคาไม่ถึง 100,000 บาท</h1>
+      <nav>
+          <ul>
+              <li><a href="#home">หน้าหลัก</a></li>
+              <li><a href="#cars">บริการรถลากฉุกเฉิน</a></li>
+              <li><a href="#cars">รับต่อภาษี-ประกันรถยนต์</a></li>
+              <li><a href="#cars">จดทะเบียนรถสาธารณะ</a></li>
+              <li><a href="#about">เกี่ยวกับเรา</a></li>
+              <li><a href="#contact">ติดต่อเรา</a></li>
+          </ul>
+      </nav>
+  </header>
+</body>
+</html>
