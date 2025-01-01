@@ -11,12 +11,52 @@
 
   </head>
   <style>
+    /* Positioning container for top-right */
+      head
+        .top-right {
+            position: relative;
+            top: 10px; /* Distance from the top */
+            right: 10px; /* Distance from the right */
+            width: 100px; /* You can adjust the image size */
+            height: auto; /* Maintain the aspect ratio */
+            border-radius: 10px; /* Optional: rounded corners */
+            display: flex;
+            
+        }
+        /* Style for the button or icon */
+        .social-btn {
+            padding: 10px 20px;
+            background-color: #0077b5; /* Example color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .social-btn-line{
+          padding: 10px 20px;
+            background-color: #43eb6d; /* Example color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .social-btn:hover {
+            background-color: #005582; /* Darker blue on hover */
+        }
     body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
 }
+
   h2{
   text-align:  center;
   }
@@ -26,6 +66,7 @@ header {
   color: white;
   padding: 1rem 0;
   text-align: center;
+  border-block-color: red;
 }
 
 header nav ul {
@@ -144,6 +185,15 @@ footer {
 }
   </style>
   <body>
+    <!-- Element in the top-right corner -->
+    <div class="top-right">
+      <ul>
+        <li>
+            <button class="social-btn">Facebook</button>
+            <button class="social-btn-line">Line</button>
+        </li>
+    </ul>
+  </div>
     <header>
       <h1>รถแท็กซี่-บ้านมือสองราคาไม่ถึง 100,000 บาท</h1>
       <nav>
@@ -153,7 +203,7 @@ footer {
               <li><a href="#cars">รับต่อภาษี-ประกันรถยนต์</a></li>
               <li><a href="#cars">จดทะเบียนรถสาธารณะ</a></li>
               <li><a href="#about">เกี่ยวกับเรา</a></li>
-              <li><a href="#contact">ติดต่อเรา</a></li>
+              <li><a href="contact.html">ติดต่อเรา</a></li>
           </ul>
       </nav>
   </header>
@@ -169,7 +219,7 @@ footer {
     <div class="product-card">
       <img src="https://www.motorshow.in.th/wp-content/uploads/2024/09/BYD-M6.jpg" alt="Product 1">
       <h3>รถไฟฟ้ามือสอง</h3>
-      <p class="price">450,000บาท</p>
+      <p class="price">$29.99</p>
       <p class="description">บริการสั่งซื้อรถไฟฟ้านำเข้าและภายในประเทศ</p>
       <button class="btn">ดูรายละเอียด</button>
     </div>
