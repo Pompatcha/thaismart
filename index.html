@@ -23,6 +23,7 @@
             height: auto; /* Maintain the aspect ratio */
             border-radius: 10px; /* Optional: rounded corners */
             display: flex;
+            justify-content: flex-start;
             
         }
         /* Style for the button or icon */
@@ -71,6 +72,9 @@ header {
   border-block-color: red;
 }
 
+nav{
+  justify-content: flex-start;
+}
 header nav ul {
   list-style: none;
   padding: 0;
@@ -93,6 +97,17 @@ section {
 section#home {
   background-color: #e2f9e1;
 }
+
+/* international menu */
+.international{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #45a049;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 section#cars,
 section#about,
@@ -200,6 +215,12 @@ footer {
           </ul>
       </nav>
   </header>
+  <div class="international">
+
+    <a href="contact.html">International customer Click here</a>
+  
+  </div>
+
   <section id="home">
       <h2>แหล่งจำหน่ายรถบ้านราคาถูกและดีที่สุดในไทย</h2>
       <p class="center">สามารถสั่งจองรถล่วงหน้า เพื่อขายต่อทำกำไรเอง ยินดีให้คำปรึกษาด้านธุรกิจรถยนต์มือสอง </p>
