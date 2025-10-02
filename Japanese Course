@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language School - Japanese & English Courses</title>
+<style>
+/* Global Styles */
+body {
+    font-family: 'Yu Gothic', 'Meiryo', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #ffefd5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+header h1 {
+    font-family: 'Yu Mincho', 'MS Mincho', serif;
+    color: #d2691e;
+    font-size: 24px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #d2691e;
+    color: #fff;
+}
+.translate-container {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+section {
+    padding: 60px 50px;
+}
+section h2 {
+    text-align: center;
+    color: #d2691e;
+    margin-bottom: 40px;
+    font-family: 'Yu Mincho', 'MS Mincho', serif;
+}
+.course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card h3 {
+    margin-top: 0;
+    color: #d2691e;
+}
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+footer {
+    background-color: #ffe4e1;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Language School</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#japanese-course">Japanese Course</a></li>
+            <li><a href="#english-course">English Course</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="translate-container" id="google_translate_element"></div>
+</header>
+
+<section id="home">
+    <h2>Welcome to Our Language School</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">We provide high-quality Japanese and English courses for beginners to advanced learners, blending traditional Japanese aesthetics with modern European design for an effective learning experience.</p>
+</section>
+
+<section id="japanese-course">
+    <h2>Japanese Courses</h2>
+    <div class="course-cards">
+        <div class="card">
+            <h3>Beginner Japanese</h3>
+            <p>Learn basic greetings, daily conversation, Hiragana and Katakana, and simple grammar to start speaking Japanese confidently.</p>
+        </div>
+        <div class="card">
+            <h3>Intermediate Japanese</h3>
+            <p>Improve your reading, writing, and speaking skills with Kanji, complex grammar, and practical communication exercises.</p>
+        </div>
+        <div class="card">
+            <h3>Advanced Japanese</h3>
+            <p>Enhance your proficiency for business, academic, or professional purposes with advanced vocabulary, expressions, and Japanese culture.</p>
+        </div>
+    </div>
+</section>
+
+<section id="english-course">
+    <h2>English Courses</h2>
+    <div class="course-cards">
+        <div class="card">
+            <h3>Beginner English</h3>
+            <p>Start with fundamental vocabulary, greetings, basic grammar, and simple conversation for daily life.</p>
+        </div>
+        <div class="card">
+            <h3>Intermediate English</h3>
+            <p>Develop your reading, writing, and speaking skills with more complex grammar, idioms, and communication practices.</p>
+        </div>
+        <div class="card">
+            <h3>Advanced English</h3>
+            <p>Focus on professional, academic, and advanced communication with sophisticated vocabulary and presentation skills.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">📱 LINE: @631mvnci<br>📧 Email: info@languageschool.com<br>📍 Location: Bangkok, Thailand</p>
+</section>
+
+<footer>
+    &copy; 2025 Language School. All rights reserved.
+</footer>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>
